@@ -1,0 +1,35 @@
+{
+ "name": "claude-edit",
+ "notes": "AI/Claude explainer look from 3 references: small plain sentence-case captions, serif hook text, red accent, effect every ~3.5s.",
+ "cut": {
+  "max_gap": 0.22,
+  "post_pad": 0.1
+ },
+ "captions": {
+  "font": "Inter",
+  "size": 58,
+  "bold": true,
+  "uppercase": false,
+  "color": "#FFFFFF",
+  "highlight": "#FFFFFF",
+  "outline": 3,
+  "outline_color": "#00000099",
+  "shadow": 2,
+  "y": 0.62,
+  "max_words": 2,
+  "max_chars": 16,
+  "alt_y": 0.8,
+  "conflict": "hide"
+ },
+ "onscreen": {
+  "font": "Instrument Serif",
+  "size": 120,
+  "color": "#FFFFFF",
+  "box": "#00000000",
+  "uppercase": false,
+  "y": 0.13
+ },
+ "effects": {
+  "min_gap": 0.5
+ }
+}

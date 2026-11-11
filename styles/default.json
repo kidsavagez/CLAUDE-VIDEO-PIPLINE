@@ -1,0 +1,59 @@
+{
+ "name": "default",
+ "notes": "Neutral starting point. A reference style (styles/<name>.json) only needs the keys it changes.",
+ "cut": {
+  "pause_split": 0.7,
+  "max_gap": 0.3,
+  "pre_pad": 0.06,
+  "post_pad": 0.14,
+  "cut_fillers": true,
+  "complete": 0.85
+ },
+ "captions": {
+  "enabled": true,
+  "font": "Montserrat",
+  "size": 76,
+  "bold": true,
+  "uppercase": false,
+  "color": "#FFFFFF",
+  "highlight": "#FFD60A",
+  "outline": 6,
+  "outline_color": "#000000",
+  "shadow": 0,
+  "y": 0.68,
+  "max_words": 3,
+  "max_chars": 18,
+  "pop": false,
+  "conflict": "shift",
+  "alt_y": 0.26,
+  "avoid_fx": ["checklist", "liquid-glass-graph", "tape-label", "messages", "split-headline",
+               "broll-split", "headline-box", "phone-fan", "cover-star", "red-collage", "reel-frame",
+               "place-in-grid", "todo"]
+ },
+ "onscreen": {
+  "enabled": true,
+  "font": "Anton",
+  "size": 92,
+  "color": "#FFFFFF",
+  "box": "#000000B3",
+  "uppercase": true,
+  "y": 0.16,
+  "hook_min": 2.5
+ },
+ "effects": {
+  "min_gap": 5.0,
+  "default_dur": 2.5,
+  "lead": 0.15
+ },
+ "audio": {
+  "lufs": -14,
+  "music_db": -22,
+  "duck": true
+ },
+ "export": {
+  "preview_width": 540,
+  "crf_preview": 28,
+  "crf_final": 18,
+  "cover_at": 0.6
+ }
+}

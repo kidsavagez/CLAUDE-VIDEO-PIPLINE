@@ -1,0 +1,9 @@
+.venv/
+.venv-music/
+examples/*.wav
+vendor/
+projects/
+styles/refs/
+config.json
+__pycache__/
+*.pyc
