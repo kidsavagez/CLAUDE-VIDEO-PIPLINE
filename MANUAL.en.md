@@ -84,6 +84,20 @@ Either:
 
 The first transcription downloads the Whisper model once (a few hundred MB up to 3 GB).
 
+### Optional: make the script sound like you
+
+`/reel` reads your voice profile (`voice.md`) from Jake Schincariol's
+[instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) or
+[youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) when one is installed.
+It works without them, but the scripts are more generic. Type:
+
+```
+Install skill dari https://github.com/Jakeschincariol/instagram-agent-skill, terus bikinin voice.md-ku dari 3 Reel ini.
+```
+("Install the skill from ..., then write my voice.md from these 3 Reels." Attach or point to three
+of your own Reels. It's saved to `~/.claude/instagram/voice.md`. For YouTube, use the
+youtube-agent-skill link; it saves to `~/.claude/youtube/voice.md`.)
+
 ## 5. Make your first video
 
 ### Step 1: give the idea

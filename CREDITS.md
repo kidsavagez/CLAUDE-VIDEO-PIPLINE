@@ -18,6 +18,18 @@ This pipeline stands on other people's open-source work. Thank you.
 | [OpenCV](https://github.com/opencv/opencv), [MediaPipe](https://github.com/google-ai-edge/mediapipe), [Pillow](https://github.com/python-pillow/Pillow), [NumPy](https://github.com/numpy/numpy) | image and video processing | their communities | Apache 2.0 / Apache 2.0 / MIT-CMU / BSD |
 | [Claude Code](https://claude.com/claude-code) | runs the `/reel` skill: writes the script, edits, renders | Anthropic | Anthropic terms |
 
+## Companion skills (recommended, installed separately)
+
+The `/reel` skill reads your voice profile from these when it writes a script
+(`~/.claude/instagram/voice.md` or `~/.claude/youtube/voice.md`). They also cover what this pipeline
+doesn't: hook scoring, viral research, caption linting, carousels, titles and thumbnails, retention
+analysis. They are not copied into this repo; install them from their own pages.
+
+| What | Used for | By | Licence |
+|---|---|---|---|
+| [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | the Instagram voice profile (`~/.claude/instagram/voice.md`), plus 13 Instagram skills: Reel hooks, captions, carousels, stories, planning, DMs | Jake Schincariol ([opusjake.ai](https://opusjake.ai)) | MIT |
+| [youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) | the YouTube voice profile (`~/.claude/youtube/voice.md`), plus 11 YouTube skills: scripts, titles and thumbnails, Shorts, chapters, SEO | Jake Schincariol | MIT |
+
 **About the MusicGen licence:** the model weights are CC-BY-NC 4.0 (non-commercial). Music you make
 with it is fine for personal and creator content, but check the licence yourself before using it in
 paid ads or client work. For commercial jobs, use music you have a licence for.

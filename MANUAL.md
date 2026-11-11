@@ -81,6 +81,20 @@ Pilih salah satu:
 
 Transkripsi pertama akan mengunduh model Whisper sekali (beberapa ratus MB sampai 3 GB).
 
+### Opsional: supaya naskahnya terdengar seperti kamu
+
+`/reel` membaca profil gaya bicaramu (`voice.md`) dari skill
+[instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) atau
+[youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) buatan Jake
+Schincariol, kalau sudah terpasang. Tanpa itu pun tetap jalan, tapi naskahnya lebih umum. Ketik:
+
+```
+Install skill dari https://github.com/Jakeschincariol/instagram-agent-skill, terus bikinin voice.md-ku dari 3 Reel ini.
+```
+
+(Lampirkan atau tunjukkan 3 Reel milikmu. Hasilnya tersimpan di `~/.claude/instagram/voice.md`.
+Untuk YouTube, pakai link youtube-agent-skill; hasilnya di `~/.claude/youtube/voice.md`.)
+
 ## 5. Bikin video pertama
 
 ### Langkah 1: kasih ide
