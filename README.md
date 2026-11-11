@@ -35,6 +35,11 @@ The first time, Claude sets everything up for you: ffmpeg and git if missing, th
 reviewed commit), then the self-test. `9/9 passed` means cutting, captions and export work on
 your machine.
 
+**Want the scripts in your own voice?** Install Jake Schincariol's
+[instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) or
+[youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) and have it write your
+`voice.md`. `/reel` reads it when it writes the script.
+
 **Want `/reel` in every folder, not just this one?** Run `python install.py --global` once. It
 copies the skill into `~/.claude/skills/reel/` with this folder's paths filled in. Run it again
 after you update the pipeline, or the global copy goes stale.
